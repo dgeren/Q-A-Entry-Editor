@@ -7,5 +7,5 @@ The modifier-character set is outlined in the HTML and appears on the page in ed
 
 On a Mac, to type the quotation marks used for the paragraph tags press opt + \ and shift + opt + \\. The tickmarks are the unmodified tilde key to the left of number 1 (in the number row, not in the keypad if you're using an extended keyboard) to make inline code and code blocks. Press opt + 8 to type the bullet to mark list items. As with HTML tags, this markup system requires that you close the markdown tags, but without requiring a special closing character (as the / is for HTML).
 Examples:
-  <li>A paragraph: «This is a paragraph»<li>
+  <li>A paragraph: «This is a paragraph»</li>
   <li>An unordered list with 2 items: #u•item 1••item 2#u</li>
