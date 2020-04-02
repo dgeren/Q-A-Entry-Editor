@@ -1,0 +1,51 @@
+body {
+	font-family: sans-serif;
+}
+
+.html {
+	background-color: lawngreen;
+	border: 1px solid black;
+	padding: 20px;
+	width: 60%;
+}
+
+textarea {
+	height: 100px;
+	width: 60%;
+	padding: 20px;
+	min-width: 500px;
+	font-family: monospace;
+	font-size: 1.25em;
+	white-space: pre;
+	background-color: lawngreen;
+	border: 1px solid black;
+}
+
+.btnWrapper {
+	text-align: center;
+	width: 200px;
+	border: 1px black solid;
+	padding: 0;
+	background-color: grey;
+}
+
+#btnToggle {
+	font-weight: bold;
+	color: oldlace;
+	line-height: 2em;
+	padding: 0;
+}
+
+#save {
+	font-size: .75em;
+}
+
+div#markdown {
+	display: none;
+}
+
+ul.lists {
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+}

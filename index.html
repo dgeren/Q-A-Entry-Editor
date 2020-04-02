@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" href="styles.css" />
+	<title>Markdown Editor</title>
+</head>
+<body>
+	<h1>Q&A Editor</h1>
+	<div class="btnWrapper">
+		<p id="btnToggle">Switch to Edit Mode</p>
+	</div>
+	
+	<div id="html">
+		<h2>Quiz View</h2>
+		<h3>Question</h3>
+		<div class="html" id="questionHtml"></div>
+		<h3>Answer</h3>
+		<div class="html" id="answerHtml"></div>
+	</div>
+
+	<div id="markdown">
+		<h2>Editor View <span id="save">[Save Changes]</span></h2>
+		<h3>Question</h3>
+		<textarea id="questionMarkdown"></textarea>
+		<h3>Answer</h3>
+		<textarea id="answerMarkdown"></textarea>
+		<br>
+		<ul class="lists">
+			<li>«Paragraph»</li>
+			<li><code>```Code Block```</code></li>
+			<li><code>`Inline Code`</code></li>
+			<li>**<b>Bold</b>**</li>
+			<li>*<i>Italic</i>*</li>
+		</ul>
+		<ul class="lists">
+			<li>_<u>Underline</u>_</li>
+			<li>Order list: #o #o</li>
+			<li>Unorder List: #u #u</li>
+			<li>List item: •item•</li>
+			<li>Replace < and > with the character entities (&amp;lt; and &amp;gt;) insde ``` and ```</li>
+		</ul>
+	</div>
+
+</body>
+</html>
